@@ -1,4 +1,8 @@
 .gradle
 build
+/Debug/
+
+# Eclipse
 .cproject
 .project
+.settings
