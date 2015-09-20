@@ -1,5 +1,11 @@
 apply plugin: 'cpp'
 
+binaries.all {
+	if (toolChain in Clang) {
+		cppCompiler.args "-std=c++11"
+	}
+}
+
 model {
     buildTypes {
         debug

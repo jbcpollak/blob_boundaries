@@ -1,12 +1,12 @@
 #include <iostream>
-
+#include <vector>
 
 int main(int argc, char ** argv)
 {
 	/*
 	 * Image Definition
 	 */
-	const unsigned short image[] = {
+	std::vector<unsigned short> image {
 			0,0,0,0,0,0,0,0,0,0,
 			0,0,1,1,1,0,0,0,0,0,
 			0,0,1,1,1,1,1,0,0,0,
