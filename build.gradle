@@ -24,16 +24,9 @@ model {
         }
     }
 	
-    flavors {
-        community
-        enterprise
-    }
-
     components {
 
         main(NativeExecutableSpec) {
-        	binaries.all {
-			}
 		}
     }
 }
